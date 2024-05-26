@@ -29,6 +29,35 @@
                             CornerRadius="30,30,0,0"
                             Fill="white" />
 
+            <Image Aspect="AspectFit"
+                   HeightRequest="85"
+                   Margin="5,-380,-5,-2"
+                   Source="https://media.primicias.ec/2022/02/04094454/RGB_LOGO-UDLA_2021_ROJO.png" />
+
+            <VerticalStackLayout Margin="90,80,90,0" HorizontalOptions="Center">
+                <Label FontAttributes="Bold"
+                       WidthRequest="233"
+                       HeightRequest="70"
+                       FontFamily="PoppinsBold"
+                       FontSize="Title"
+                       Text="Bienvenido a SocialUdla!"
+                       TextColor="Black"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,0,0,25" />
+
+                <Label FontFamily="PoppinsMedium"
+                       FontSize="Header"
+                       Text="Para poder ingresar debes Iniciar Sesión"
+                       TextColor="DarkSlateGrey"
+                       HeightRequest="24"
+                       WidthRequest="324"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,0,0,30" />
+
+               
+            </VerticalStackLayout>
         </Grid>
     </Grid>
 </ContentPage>
