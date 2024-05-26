@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell
+<!--<Shell
     x:Class="BLOGUdlaProject.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -12,4 +12,14 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
-</Shell>
+</Shell>-->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlogUdlaProject.Views.PaginaRegistro"
+             Title="PaginaRegistro">
+
+    <Grid RowDefinitions=".3*,.4*" Margin="0">
+
+        
+    </Grid>
+</ContentPage>
